@@ -33,7 +33,13 @@ while True:
         if raw_key == 'n':
             new_dict = {}
             list_of_dicts.append(new_dict)
-    # break when our exceptions are triggered, indicating the end of the file / STDIN file object has been reached.
+    # if EOF has been reached, break. Useful if STDIN input has an unexpected EOF.
+    except EOFError:
+        break
+    # the last line of STDIN input seems to have a blank, so this will also terminate processing.
+    # no blank lines are expected in the middle of the input, but if so, this will also break.
+    # this is a trade-off between memory efficiency for large inputs and handling completely unexpected exceptions.
+    # workaround would require loading more lines, i.e. using a rolling buffer, and impacts performance somewhat.
     except AssertionError:
         break
 
