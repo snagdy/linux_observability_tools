@@ -33,9 +33,6 @@ while True:
         if raw_key == 'n':
             new_dict = {}
             list_of_dicts.append(new_dict)
-    # if EOF has been reached, break. Useful if STDIN input has an unexpected EOF.
-    except EOFError:
-        break
     # the last line of STDIN input seems to have a blank, so this will also terminate processing.
     # no blank lines are expected in the middle of the input, but if so, this will also break.
     # this is a trade-off between memory efficiency for large inputs and handling completely unexpected exceptions.
@@ -43,6 +40,11 @@ while True:
     except AssertionError:
         break
 
-# we convert the output to a dictionary of dictionaries for proper JSON conversion, removing the last always blank item.
-dict_of_dicts = {key: value for key, value in enumerate(list_of_dicts[:-1])}
+# we convert the output to a dictionary of dictionaries for proper JSON conversion.
+# we remove the trailing blank dict if we have at least two dicts.
+if len(list_of_dicts) > 1:
+    dict_of_dicts = {key: value for key, value in enumerate(list_of_dicts[:-1])}
+else:
+    dict_of_dicts = {key: value for key, value in enumerate(list_of_dicts)}
+
 print(dumps(dict_of_dicts))
