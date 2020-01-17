@@ -7,7 +7,8 @@ from json import dumps, load
 list_of_dicts = [{}]
 # get the config file's full path and load it into a dictionary for descriptive field name lookups for keys.
 directory_of_script = path.dirname(path.realpath(__file__))
-with open(directory_of_script + '\\field_config.json') as json_file:
+file_path = path.join(directory_of_script, 'field_config.json')
+with open(file_path) as json_file:
     key_to_field_map = load(json_file)
 
 # while loop that breaks on EOFError or AssertionError.
