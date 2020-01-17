@@ -24,6 +24,7 @@
   "s": "file's size in decimal",
   "S": "file's stream identification",
   "t": "file's type",
+  "T": "TCP/TPI information",
   "u": "process user ID",
   "z": "Solaris 10 and higher zone name",
   "Z": "SELinux security context"
