@@ -34,15 +34,9 @@ while True:
             new_dict = {}
             list_of_dicts.append(new_dict)
     # break when our exceptions are triggered, indicating the end of the file / STDIN file object has been reached.
-    except EOFError:
-        error_dict = {'error_code': 500, 'error_message': 'reached EOF.'}
-        print(dumps(error_dict))
-        break
     except AssertionError:
-        error_dict = {'error_code': 500, 'error_message': 'encountered blank line data on collection.'}
-        print(dumps(error_dict))
         break
 
-dict_of_dicts = {key: value for key, value in enumerate(list_of_dicts)}
-
+# we convert the output to a dictionary of dictionaries for proper JSON conversion, removing the last always blank item.
+dict_of_dicts = {key: value for key, value in enumerate(list_of_dicts[:-1])}
 print(dumps(dict_of_dicts))
