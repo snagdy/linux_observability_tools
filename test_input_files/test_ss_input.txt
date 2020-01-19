@@ -1,0 +1,100 @@
+Netid  State      Recv-Q Send-Q Local Address:Port               Peer Address:Port
+nl     UNCONN     0      0         0:0                      *                    sk=0 cb=0 groups=0x00000000
+nl     UNCONN     0      0         0:575                    *                    sk=0 cb=0 groups=0x00000111
+nl     UNCONN     0      0         0:-1707081156            *                    sk=0 cb=0 groups=0x00000551
+nl     UNCONN     0      0         0:1075                   *                    sk=0 cb=0 groups=0x00000440
+nl     UNCONN     0      0         0:827                    *                    sk=0 cb=0 groups=0x00000440
+nl     UNCONN     0      0         0:1075                   *                    sk=0 cb=0 groups=0x00000440
+nl     UNCONN     0      0         0:827                    *                    sk=0 cb=0 groups=0x00000440
+nl     UNCONN     0      0         0:-1707081156            *                    sk=0 cb=0 groups=0x00000551
+nl     UNCONN     0      0         0:575                    *                    sk=0 cb=0 groups=0x00000111
+nl     UNCONN     768    0         4:0                      *                    sk=0 cb=0 groups=0x00000000
+nl     UNCONN     4352   0         4:22714                  *                    sk=0 cb=0 groups=0x00000000
+nl     UNCONN     0      0         7:0                      *                    sk=0 cb=0 groups=0x00000000
+nl     UNCONN     0      0         9:1                      *                    sk=0 cb=0 groups=0x00000001
+nl     UNCONN     0      0         9:0                      *                    sk=0 cb=0 groups=0x00000000
+nl     UNCONN     0      0         9:22711                  *                    sk=0 cb=0 groups=0x00000000
+nl     UNCONN     0      0         9:-982978838             *                    sk=0 cb=0 groups=0x00000000
+nl     UNCONN     0      0         9:1                      *                    sk=0 cb=0 groups=0x00000001
+nl     UNCONN     0      0        10:0                      *                    sk=0 cb=0 groups=0x00000000
+nl     UNCONN     0      0        11:0                      *                    sk=0 cb=0 groups=0x00000000
+nl     UNCONN     0      0        15:1829                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1351                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:572                    *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1739                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1342                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1109                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1236                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-962220262             *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:590                    *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-518615891             *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-1277760202            *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-296731290             *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:740                    *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-307355082             *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1                      *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-1012941970            *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1893                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:0                      *                    sk=0 cb=0 groups=0x00000000
+nl     UNCONN     0      0        15:-135018163             *                    sk=0 cb=0 groups=0x00000001
+nl     UNCONN     0      0        15:-1026666382            *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:579                    *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1405                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1893                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1829                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1739                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1405                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1351                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1342                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1236                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:1109                   *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-962220262             *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-307355082             *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-1012941970            *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-1026666382            *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:572                    *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:740                    *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:590                    *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-296731290             *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-1277760202            *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-518615891             *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:579                    *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        15:-135018163             *                    sk=0 cb=0 groups=0x00000001
+nl     UNCONN     0      0        15:1                      *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        16:0                      *                    sk=0 cb=0 groups=0x00000000
+nl     UNCONN     0      0        16:588                    *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        16:588                    *                    sk=0 cb=0 groups=0x00000002
+nl     UNCONN     0      0        18:0                      *                    sk=0 cb=0 groups=0x00000000
+p_raw  UNCONN     0      0         *:enp0s3                 *                    users:(("dhclient",pid=20053,fd=5)) ino:98918 sk:195
+        ver:0 cpy_thresh:0 flags( running auxdata )
+u_dgr  UNCONN     0      0      /run/systemd/journal/socket 7811                  * 0                   users:(("systemd-journal",pid=188,fd=4),("systemd",pid=1,fd=132))
+ <->
+u_dgr  UNCONN     0      0      /run/systemd/journal/syslog 7812                  * 0                   users:(("rsyslogd",pid=592,fd=3),("systemd",pid=1,fd=129))
+ <->
+u_dgr  UNCONN     0      0      /run/user/1000/systemd/notify 15984                 * 0                   users:(("systemd",pid=1109,fd=13))
+ <->
+u_dgr  UNCONN     0      0      /run/systemd/journal/dev-log 7820                  * 0                   users:(("systemd-journal",pid=188,fd=6),("systemd",pid=1,fd=138))
+ <->
+u_str  LISTEN     0      128    @/tmp/.ICE-unix/1330 16165                 * 0                   users:(("xfce4-session",pid=1330,fd=9))
+ <->
+u_str  LISTEN     0      128    /run/user/1000/systemd/private 15985                 * 0                   users:(("systemd",pid=1109,fd=14))
+ <->
+u_seq  LISTEN     0      128    /run/udev/control 7819                  * 0                   users:(("systemd-udevd",pid=261,fd=4),("systemd",pid=1,fd=125))
+ <->
+u_str  LISTEN     0      128    /run/user/1000/keyring/control 15992                 * 0                   users:(("gnome-keyring-d",pid=1116,fd=7))
+ <->
+u_str  LISTEN     0      128    /run/systemd/fsck.progress 9772                  * 0                   users:(("systemd",pid=1,fd=141))
+ <->
+u_str  LISTEN     0      10     /var/run/NetworkManager/private-dhcp 13831                 * 0                   users:(("NetworkManager",pid=572,fd=17))
+ <->
+u_str  LISTEN     0      128    /run/user/1000/keyring/pkcs11 16113                 * 0                   users:(("gnome-keyring-d",pid=1116,fd=13))
+ <->
+u_str  LISTEN     0      128    /run/user/1000/keyring/ssh 16114                 * 0                   users:(("gnome-keyring-d",pid=1116,fd=9))
+ <->
+u_str  LISTEN     0      5      /run/user/1000/pulse/native 18445                 * 0                   users:(("pulseaudio",pid=1405,fd=31))
+ <->
+u_str  LISTEN     0      128    @/tmp/.X11-unix/X0 13601                 * 0                   users:(("Xorg",pid=740,fd=1))
+ <->
+u_str  LISTEN     0      128    /tmp/.X11-unix/X0 13602                 * 0                   users:(("Xorg",pid=740,fd=3))
+ <->
+u_str  LISTEN     0      128    /tmp/.ICE-unix/1330 16166                 * 0                   users:(("xfce4-session",pid=1330,fd=10))

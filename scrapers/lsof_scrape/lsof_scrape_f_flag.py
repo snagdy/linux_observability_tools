@@ -55,6 +55,7 @@ def convert_data_lines_to_list_of_dicts(input_file_object, field_lookup_table):
     return list_of_dicts
 
 
+# TODO: this function is redundant, since this step can be done in function above, saving an O(n) operation.
 def convert_list_of_dicts_to_dict_of_dicts(list_of_dictionaries):
     # we convert the output to a dictionary of dictionaries for proper JSON conversion.
     # we remove the trailing blank dict if we have at least two dicts.
